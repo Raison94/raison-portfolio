@@ -1,0 +1,521 @@
+{
+  "profile": {
+    "name": "Raison Cibaj",
+    "title": "Software Engineer",
+    "headline": "I turn complex workflows into clear, intuitive applications.",
+    "introduction": "I'm Raison, a software engineer with 7+ years of experience building web applications across healthcare, environmental GIS, and business software.",
+    "summary": "My work combines frontend engineering with backend integration. I build interfaces with React, Vue, JavaScript, and TypeScript, supported by experience with Node.js, APIs, and databases.",
+    "image": {
+      "src": null,
+      "alt": "Portrait of Raison Cibaj"
+    }
+  },
+  "story": {
+    "title": "A little about my journey",
+    "paragraphs": [
+      "I started my career building healthcare software at Consis, working on patient communication, appointment scheduling, and telehealth features. That experience taught me to think carefully about how people use software and how to make important workflows easier to navigate.",
+      "At WaterSuite, I expanded into environmental software, building interfaces for water-quality management, reporting, and interactive mapping. My work brought together complex data, geospatial tools, and reusable React components.",
+      "My work on a USGS coastal shoreline analysis application added desktop development to that experience. Using Vue, Quasar, and Tauri, I helped improve the forms, validation, and multi-step workflows that support scientific analysis.",
+      "Across these projects, my focus has stayed consistent: understand the problem, build maintainable solutions, and make the experience clearer for the people using them."
+    ]
+  },
+  "highlights": [
+    {
+      "id": "experience",
+      "value": "7+ years",
+      "label": "Software development experience"
+    },
+    {
+      "id": "domains",
+      "value": "Healthcare & GIS",
+      "label": "Experience with specialized applications"
+    },
+    {
+      "id": "platforms",
+      "value": "Web & mobile",
+      "label": "Experience across multiple platforms"
+    }
+  ],
+  "strengths": {
+    "title": "What I bring to a team",
+    "items": [
+      {
+        "id": "frontend",
+        "title": "Frontend engineering",
+        "description": "Building responsive interfaces, reusable components, and predictable application state with React, Vue, and TypeScript."
+      },
+      {
+        "id": "complex-workflows",
+        "title": "Making complex workflows usable",
+        "description": "Turning detailed requirements into clear forms, dashboards, mapping tools, and guided interactions."
+      },
+      {
+        "id": "integrations",
+        "title": "Connecting interfaces and services",
+        "description": "Working with REST APIs, authentication, file uploads, and backend services to deliver complete application features."
+      },
+      {
+        "id": "quality",
+        "title": "Reliability and collaboration",
+        "description": "Working with product teams, domain experts, and testers to resolve issues, improve performance, and refine the user experience."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technologies I work with",
+    "groups": [
+      {
+        "id": "languages",
+        "label": "Languages",
+        "items": [
+          {
+            "id": "javascript",
+            "name": "JavaScript",
+            "image": {
+              "src": "../assets/skills/javascript.svg",
+              "alt": "JavaScript logo"
+            }
+          },
+          {
+            "id": "typescript",
+            "name": "TypeScript",
+            "image": {
+              "src": "../assets/skills/typescript.svg",
+              "alt": "TypeScript logo"
+            }
+          },
+          {
+            "id": "html",
+            "name": "HTML",
+            "image": {
+              "src": "../assets/skills/html.svg",
+              "alt": "HTML logo"
+            }
+          },
+          {
+            "id": "css",
+            "name": "CSS",
+            "image": {
+              "src": "../assets/skills/css.svg",
+              "alt": "CSS logo"
+            }
+          },
+          {
+            "id": "sass",
+            "name": "Sass",
+            "image": {
+              "src": "../assets/skills/sass.svg",
+              "alt": "Sass logo"
+            }
+          }
+        ],
+        "image": {
+          "src": "../assets/skills/groups/languages.svg",
+          "alt": "Languages"
+        }
+      },
+      {
+        "id": "frontend",
+        "label": "Frontend",
+        "items": [
+          {
+            "id": "react",
+            "name": "React",
+            "image": {
+              "src": "../assets/skills/react.svg",
+              "alt": "React logo"
+            }
+          },
+          {
+            "id": "next-js",
+            "name": "Next.js",
+            "image": {
+              "src": "../assets/skills/next-js.svg",
+              "alt": "Next.js logo"
+            }
+          },
+          {
+            "id": "vue-js",
+            "name": "Vue.js",
+            "image": {
+              "src": "../assets/skills/vue-js.svg",
+              "alt": "Vue.js logo"
+            }
+          },
+          {
+            "id": "react-native",
+            "name": "React Native",
+            "image": {
+              "src": "../assets/skills/react-native.svg",
+              "alt": "React Native logo"
+            }
+          },
+          {
+            "id": "redux",
+            "name": "Redux",
+            "image": {
+              "src": "../assets/skills/redux.svg",
+              "alt": "Redux logo"
+            }
+          },
+          {
+            "id": "vuex",
+            "name": "Vuex",
+            "image": {
+              "src": "../assets/skills/vuex.svg",
+              "alt": "Vuex logo"
+            }
+          },
+          {
+            "id": "material-ui",
+            "name": "Material UI",
+            "image": {
+              "src": "../assets/skills/material-ui.svg",
+              "alt": "Material UI logo"
+            }
+          },
+          {
+            "id": "tailwind-css",
+            "name": "Tailwind CSS",
+            "image": {
+              "src": "../assets/skills/tailwind-css.svg",
+              "alt": "Tailwind CSS logo"
+            }
+          },
+          {
+            "id": "quasar",
+            "name": "Quasar",
+            "image": {
+              "src": "../assets/skills/quasar.svg",
+              "alt": "Quasar logo"
+            }
+          },
+          {
+            "id": "vuetify",
+            "name": "Vuetify",
+            "image": {
+              "src": "../assets/skills/vuetify.svg",
+              "alt": "Vuetify logo"
+            }
+          }
+        ],
+        "image": {
+          "src": "../assets/skills/groups/frontend.svg",
+          "alt": "Frontend"
+        }
+      },
+      {
+        "id": "backend",
+        "label": "Backend & data",
+        "items": [
+          {
+            "id": "node-js",
+            "name": "Node.js",
+            "image": {
+              "src": "../assets/skills/node-js.svg",
+              "alt": "Node.js logo"
+            }
+          },
+          {
+            "id": "express-js",
+            "name": "Express.js",
+            "image": {
+              "src": "../assets/skills/express-js.svg",
+              "alt": "Express.js logo"
+            }
+          },
+          {
+            "id": "rest-apis",
+            "name": "REST APIs",
+            "image": {
+              "src": "../assets/skills/rest-apis.svg",
+              "alt": "REST API network icon"
+            }
+          },
+          {
+            "id": "graphql",
+            "name": "GraphQL",
+            "image": {
+              "src": "../assets/skills/graphql.svg",
+              "alt": "GraphQL logo"
+            }
+          },
+          {
+            "id": "postgresql",
+            "name": "PostgreSQL",
+            "image": {
+              "src": "../assets/skills/postgresql.svg",
+              "alt": "PostgreSQL logo"
+            }
+          },
+          {
+            "id": "mongodb",
+            "name": "MongoDB",
+            "image": {
+              "src": "../assets/skills/mongodb.svg",
+              "alt": "MongoDB logo"
+            }
+          },
+          {
+            "id": "mysql",
+            "name": "MySQL",
+            "image": {
+              "src": "../assets/skills/mysql.svg",
+              "alt": "MySQL logo"
+            }
+          },
+          {
+            "id": "prisma",
+            "name": "Prisma",
+            "image": {
+              "src": "../assets/skills/prisma.svg",
+              "alt": "Prisma logo"
+            }
+          },
+          {
+            "id": "typeorm",
+            "name": "TypeORM",
+            "image": {
+              "src": "../assets/skills/typeorm.svg",
+              "alt": "TypeORM logo"
+            }
+          }
+        ],
+        "image": {
+          "src": "../assets/skills/groups/backend.svg",
+          "alt": "Backend & data"
+        }
+      },
+      {
+        "id": "testing",
+        "label": "Testing",
+        "items": [
+          {
+            "id": "cypress",
+            "name": "Cypress",
+            "image": {
+              "src": "../assets/skills/cypress.svg",
+              "alt": "Cypress logo"
+            }
+          },
+          {
+            "id": "jest",
+            "name": "Jest",
+            "image": {
+              "src": "../assets/skills/jest.svg",
+              "alt": "Jest logo"
+            }
+          },
+          {
+            "id": "playwright",
+            "name": "Playwright",
+            "image": {
+              "src": "../assets/skills/playwright.svg",
+              "alt": "Playwright logo"
+            }
+          },
+          {
+            "id": "vitest",
+            "name": "Vitest",
+            "image": {
+              "src": "../assets/skills/vitest.svg",
+              "alt": "Vitest logo"
+            }
+          },
+          {
+            "id": "react-testing-library",
+            "name": "React Testing Library",
+            "image": {
+              "src": "../assets/skills/react-testing-library.svg",
+              "alt": "React Testing Library logo"
+            }
+          }
+        ],
+        "image": {
+          "src": "../assets/skills/groups/testing.svg",
+          "alt": "Testing"
+        }
+      },
+      {
+        "id": "tools",
+        "label": "Tools & platforms",
+        "items": [
+          {
+            "id": "git",
+            "name": "Git",
+            "image": {
+              "src": "../assets/skills/git.svg",
+              "alt": "Git logo"
+            }
+          },
+          {
+            "id": "github",
+            "name": "GitHub",
+            "image": {
+              "src": "../assets/skills/github.svg",
+              "alt": "GitHub logo"
+            }
+          },
+          {
+            "id": "vite",
+            "name": "Vite",
+            "image": {
+              "src": "../assets/skills/vite.svg",
+              "alt": "Vite logo"
+            }
+          },
+          {
+            "id": "webpack",
+            "name": "Webpack",
+            "image": {
+              "src": "../assets/skills/webpack.svg",
+              "alt": "Webpack logo"
+            }
+          },
+          {
+            "id": "docker",
+            "name": "Docker",
+            "image": {
+              "src": "../assets/skills/docker.svg",
+              "alt": "Docker logo"
+            }
+          },
+          {
+            "id": "aws",
+            "name": "AWS",
+            "image": {
+              "src": "../assets/skills/aws.svg",
+              "alt": "AWS logo"
+            }
+          },
+          {
+            "id": "azure-devops",
+            "name": "Azure DevOps",
+            "image": {
+              "src": "../assets/skills/azure-devops.svg",
+              "alt": "Azure DevOps logo"
+            }
+          },
+          {
+            "id": "jira",
+            "name": "Jira",
+            "image": {
+              "src": "../assets/skills/jira.svg",
+              "alt": "Jira logo"
+            }
+          }
+        ],
+        "image": {
+          "src": "../assets/skills/groups/tools.svg",
+          "alt": "Tools & platforms"
+        }
+      }
+    ]
+  },
+  "experience": {
+    "title": "Where I've worked",
+    "items": [
+      {
+        "id": "watersuite",
+        "organization": "WaterSuite",
+        "role": "Software Developer",
+        "location": "Braintree, MA",
+        "startDate": "2021-06",
+        "endDate": null,
+        "summary": "Developing a platform that supports water-quality management, monitoring operations, source-water protection, and reporting.",
+        "contributions": [
+          "Built data-intensive interfaces and reusable components with React, Redux, JavaScript, and TypeScript.",
+          "Developed interactive mapping workflows for feature selection, boundary editing, and map-based analysis.",
+          "Integrated authentication, AWS S3 uploads, and environment-specific application configuration.",
+          "Improved navigation, asynchronous error handling, and application responsiveness."
+        ],
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Redux",
+          "OpenLayers",
+          "Turf.js",
+          "AWS S3"
+        ]
+      },
+      {
+        "id": "usgs",
+        "organization": "USGS",
+        "role": "Frontend Developer",
+        "location": "Braintree, MA",
+        "startDate": "2023-12",
+        "endDate": "2026-07",
+        "summary": "Developed interfaces for a desktop application supporting coastal shoreline analysis.",
+        "contributions": [
+          "Built and enhanced application features with Vue 3, TypeScript, Quasar, and Tauri.",
+          "Simplified multi-step workflows through clearer forms, validation, and error handling.",
+          "Worked with domain experts and testers to turn feedback into practical usability improvements."
+        ],
+        "technologies": [
+          "Vue 3",
+          "TypeScript",
+          "Quasar",
+          "Tauri"
+        ]
+      },
+      {
+        "id": "consis",
+        "organization": "Consis",
+        "role": "Software Developer",
+        "location": "Tirana, Albania",
+        "startDate": "2018-03",
+        "endDate": "2021-06",
+        "summary": "Built healthcare applications supporting patient communication, appointments, and telehealth services.",
+        "contributions": [
+          "Developed frontend features and backend services with Vue, Node.js, Express, and MongoDB.",
+          "Integrated live doctor-patient video sessions and healthcare dashboards.",
+          "Implemented role-based access control and API security improvements.",
+          "Built mobile features with React Native and reusable components."
+        ],
+        "technologies": [
+          "Vue.js",
+          "Quasar",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "React Native"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "id": "cit",
+        "institution": "Canadian Institute of Technology",
+        "degree": "Bachelor of Science",
+        "field": "Computer Science & Programming",
+        "location": "Tirana, Albania",
+        "startDate": "2014-10",
+        "endDate": "2017-10"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's connect",
+    "description": "Interested in my work or looking for an engineer for your team? I'd be happy to talk.",
+    "links": [
+      {
+        "id": "email",
+        "label": "Email me",
+        "href": "mailto:cibaj1994@gmail.com"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/raison-cibaj-671a30b7/"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "href": "https://github.com/Raison94"
+      }
+    ]
+  }
+}
