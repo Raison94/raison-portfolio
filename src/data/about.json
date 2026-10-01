@@ -3,7 +3,7 @@
     "name": "Raison Cibaj",
     "title": "Software Engineer",
     "headline": "I turn complex workflows into clear, intuitive applications.",
-    "introduction": "I'm Raison, a software engineer with 7+ years of experience building web applications across healthcare, environmental GIS, and business software.",
+    "introduction": "Software Engineer with experience building enterprise-scale web applications across healthcare, environmental GIS, and business software domains. Strong background in JavaScript, Typescript, React.js, Vue.js and Node.js with a passion for creating high-performance, intuitive user interfaces. Experienced collaborating with cross-functional teams in Agile environments to deliver scalable products used by enterprise customers. Recognized for solving complex frontend challenges, building reusable component architectures, optimizing application performance.",
     "summary": "My work combines frontend engineering with backend integration. I build interfaces with React, Vue, JavaScript, and TypeScript, supported by experience with Node.js, APIs, and databases.",
     "image": {
       "src": null,
@@ -15,7 +15,7 @@
     "paragraphs": [
       "I started my career building healthcare software at Consis, working on patient communication, appointment scheduling, and telehealth features. That experience taught me to think carefully about how people use software and how to make important workflows easier to navigate.",
       "At WaterSuite, I expanded into environmental software, building interfaces for water-quality management, reporting, and interactive mapping. My work brought together complex data, geospatial tools, and reusable React components.",
-      "My work on a USGS coastal shoreline analysis application added desktop development to that experience. Using Vue, Quasar, and Tauri, I helped improve the forms, validation, and multi-step workflows that support scientific analysis.",
+      "At WaterSuite, my work on a USGS coastal shoreline analysis application added desktop development to that experience. Using Vue, Quasar, and Tauri, I helped improve the forms, validation, and multi-step workflows that support scientific analysis.",
       "Across these projects, my focus has stayed consistent: understand the problem, build maintainable solutions, and make the experience clearer for the people using them."
     ]
   },
@@ -421,39 +421,31 @@
         "role": "Software Developer",
         "location": "Braintree, MA",
         "startDate": "2021-06",
-        "endDate": null,
-        "summary": "Developing a platform that supports water-quality management, monitoring operations, source-water protection, and reporting.",
+        "endDate": "Present",
+        "summary": "Developing web and desktop applications for water-quality management, monitoring operations, source-water protection, compliance, reporting, and USGS coastal shoreline analysis.",
         "contributions": [
-          "Built data-intensive interfaces and reusable components with React, Redux, JavaScript, and TypeScript.",
-          "Developed interactive mapping workflows for feature selection, boundary editing, and map-based analysis.",
-          "Integrated authentication, AWS S3 uploads, and environment-specific application configuration.",
-          "Improved navigation, asynchronous error handling, and application responsiveness."
+          "Developed and maintained the WaterSuite project, a React, Redux, JavaScript, and TypeScript web platform supporting water-quality management, monitoring-site operations, source-water protection, compliance workflows, and customer-facing reporting.",
+          "Built sophisticated geospatial workflows with OpenLayers and Turf.js, including interactive layers, feature selection, WMS/reference data, shapefile handling, boundary editing, site and pipe management, labeling, and map-based analysis.",
+          "Delivered data-intensive operational UI across 483 React components and 129 JavaScript modules, spanning dashboards, point details, contaminants, contacts, attachments, alerts, reports, and administrative workflows.",
+          "Maintained stage-based configuration, production build workflows, Redux state management, and reusable frontend components.",
+          "Implemented secure, stage-aware frontend integrations using Redux, session-based authentication, Vertex Event Bus APIs, AWS S3 uploads, and environment-specific deployment configuration.",
+          "Improved application reliability and user experience through route guards, state-preserving navigation, asynchronous error handling, performance-conscious Web Workers, and progressive-web-app support.",
+          "Developed and enhanced a Vue 3, JavaScript, TypeScript, Quasar, and Tauri desktop application for USGS coastal shoreline analysis.",
+          "Translated user feedback and product requirements into practical UI improvements and new features.",
+          "Built and enhanced responsive, user-friendly interfaces for a desktop data-analysis application.",
+          "Improved complex multi-step workflows through clearer forms, validation, confirmations, and error handling.",
+          "Collaborated with product teams, domain experts, and testers to identify usability issues and deliver polished solutions.",
+          "Investigated and resolved frontend issues to improve reliability and reduce user confusion."
         ],
         "technologies": [
           "React",
+          "JavaScript",
           "TypeScript",
           "Redux",
           "OpenLayers",
           "Turf.js",
-          "AWS S3"
-        ]
-      },
-      {
-        "id": "usgs",
-        "organization": "USGS",
-        "role": "Frontend Developer",
-        "location": "Braintree, MA",
-        "startDate": "2023-12",
-        "endDate": "2026-07",
-        "summary": "Developed interfaces for a desktop application supporting coastal shoreline analysis.",
-        "contributions": [
-          "Built and enhanced application features with Vue 3, TypeScript, Quasar, and Tauri.",
-          "Simplified multi-step workflows through clearer forms, validation, and error handling.",
-          "Worked with domain experts and testers to turn feedback into practical usability improvements."
-        ],
-        "technologies": [
+          "AWS S3",
           "Vue 3",
-          "TypeScript",
           "Quasar",
           "Tauri"
         ]
