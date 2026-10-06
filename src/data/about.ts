@@ -20,7 +20,10 @@ const about = {
     groups: data.skills.groups.map((group) => ({
       ...group,
       image: resolveImage(group.image),
-      items: group.items.map((item) => ({ ...item, image: resolveImage(item.image) })),
+      items: group.items.map((item) => ({
+        ...item,
+        image: resolveImage(item.image),
+      })),
     })),
   },
 }

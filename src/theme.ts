@@ -24,7 +24,12 @@ declare module '@mui/material/styles' {
 
 const baseTheme = createTheme({
   palette: {
-    primary: { main: '#31583c', dark: '#24432d', light: '#eaf2e6', contrastText: '#fff' },
+    primary: {
+      main: '#31583c',
+      dark: '#24432d',
+      light: '#eaf2e6',
+      contrastText: '#fff',
+    },
     secondary: { main: '#9ebc88' },
     text: { primary: '#18261d', secondary: '#59635c' },
     background: { default: '#fff', paper: '#fafcf8' },
@@ -46,7 +51,13 @@ const baseTheme = createTheme({
   },
   typography: {
     fontFamily: 'Roboto, sans-serif',
-    h1: { fontSize: '2.4rem', lineHeight: 1.12, fontWeight: 700, letterSpacing: '-0.045em', textWrap: 'balance' },
+    h1: {
+      fontSize: '2.4rem',
+      lineHeight: 1.12,
+      fontWeight: 700,
+      letterSpacing: '-0.045em',
+      textWrap: 'balance',
+    },
     h5: { fontSize: '1.5rem', fontWeight: 600, letterSpacing: '-0.025em' },
     body1: { fontSize: '1.1rem', lineHeight: 1.85 },
     body2: { fontSize: '0.95rem', lineHeight: 1.7 },
@@ -57,19 +68,31 @@ const baseTheme = createTheme({
   components: {
     MuiAppBar: {
       styleOverrides: {
-        root: ({ theme }) => ({ backgroundColor: theme.palette.portfolio.navbar, color: theme.palette.portfolio.navbarText }),
+        root: ({ theme }) => ({
+          backgroundColor: theme.palette.portfolio.navbar,
+          color: theme.palette.portfolio.navbarText,
+        }),
       },
     },
     MuiButton: {
       styleOverrides: {
         root: { '&.active': { fontWeight: 700 } },
-        contained: { borderRadius: 8, textTransform: 'none', boxShadow: 'none', '&:hover': { boxShadow: 'none' } },
+        contained: {
+          borderRadius: 8,
+          textTransform: 'none',
+          boxShadow: 'none',
+          '&:hover': { boxShadow: 'none' },
+        },
         sizeLarge: { padding: '11.2px 24px' },
       },
     },
     MuiChip: {
       styleOverrides: {
-        colorPrimary: ({ theme }) => ({ backgroundColor: theme.palette.primary.light, color: theme.palette.primary.main, fontWeight: 600 }),
+        colorPrimary: ({ theme }) => ({
+          backgroundColor: theme.palette.primary.light,
+          color: theme.palette.primary.main,
+          fontWeight: 600,
+        }),
       },
     },
     MuiPaper: {
