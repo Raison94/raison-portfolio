@@ -21,6 +21,9 @@ export default function Navbar() {
           <Button component={NavLink} to="/about" color="inherit">
             About Me
           </Button>
+          <Button component={NavLink} to="/resume" color="inherit">
+            Resume
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>

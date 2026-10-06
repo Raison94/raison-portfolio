@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router'
 import MainLayout from '../layout/MainLayout'
 import ProjectsPage from '../pages/ProjectsPage'
 import AboutPage from '../pages/AboutPage'
+import ResumePage from '../pages/ResumePage'
 
 export default function AppRoutes() {
   return (
@@ -9,6 +10,7 @@ export default function AppRoutes() {
       <Route element={<MainLayout />}>
         <Route index element={<ProjectsPage />} />
         <Route path="about" element={<AboutPage />} />
+        <Route path="resume" element={<ResumePage />} />
         <Route path="*" element={<h1>Page not found</h1>} />
       </Route>
     </Routes>
